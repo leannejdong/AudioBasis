@@ -18,11 +18,13 @@
 
 **Virtual instruments**: One can program digital instruments that mimic the sounds of real-world instruments such as pianos, guitars, drums, and brass instruments. These virtual instruments can be played using a MIDI controller or programmed into a sequencer.
 
-**Synthesizers**: Synthesizers allow you to create new sounds by manipulating oscillators, filters, and envelopes. There are many types of synthesizers, such as subtractive, additive, FM, and granular synthesizers, each with their unique sound.
+**Synthesizers**: Synthesizers allow one to create new sounds by manipulating oscillators, filters, and envelopes. There are many types of synthesizers, such as subtractive, additive, FM, and granular synthesizers, each with their unique sound.
 
 **Effects**: Audio effects can be used to modify the sound of a track or an instrument. Some common effects include reverb, delay, chorus, and distortion. One can program custom effects or use pre-existing ones.
 
 **Sample libraries**: Sample libraries contain recordings of real-world instruments or sounds. One can program instruments using these samples, allowing them to create realistic sounding instruments.
+
+For those wish to specialize as DJ?
 
 The concept of loops is an important part of audio programming, especially in electronic music production. A loop is a short section of audio that can be repeated continuously, creating a rhythmic pattern. Loops can be created using digital audio workstations (DAWs) or using specialized software like Ableton Live.
 
@@ -88,6 +90,9 @@ Package management: Rust has a built-in package manager called Cargo, which can 
 Whichever language you work primarily with, keep in mind, knowledge of digital signal processing (DSP) concepts such as Fourier analysis, filtering, and modulation can be helpful in audio programming. Rust also has several libraries and frameworks for audio programming, such as RustPortAudio, RustFFT, and rust-vst, that can help you get started with audio programming in Rust.
 
 ## Audio API, Interfaces
+
+only for linux people
+...
 
 Standard stuff: 
 

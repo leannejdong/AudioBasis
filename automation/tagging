@@ -1,0 +1,7 @@
+#!/usr/bin/zsh
+
+for file in *.mp3; do
+    artist="Artist Name"
+    title=$(mp3info -p "%t" "$file")
+    id3v2 --artist "$artist" --song "$title" "$file"
+done

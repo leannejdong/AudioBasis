@@ -1,0 +1,11 @@
+#!/usr/bin/zsh
+
+for artist in *; do
+    if [[ -d $artist ]]; then
+        cd "$artist"
+        for file in *.mp3; do
+            mv "$file" "../$artist/$file"
+        done
+        cd ..
+    fi
+done

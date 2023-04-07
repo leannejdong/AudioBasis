@@ -1,0 +1,5 @@
+#!/usr/bin/zsh
+
+for file in *.flac; do
+    ffmpeg -i "$file" -codec:a libmp3lame -qscale:a 2 "${file%.flac}.mp3"
+done

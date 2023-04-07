@@ -1,0 +1,6 @@
+#!/usr/bin/zsh
+
+for file in *.mp3; do
+    tag=$(mp3info -p "%n_%a_%t" "$file")
+    mv "$file" "$tag.mp3"
+done

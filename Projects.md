@@ -18,3 +18,11 @@ Add additional features: To create a more advanced reverb effect, you can add ad
 * CppCast Episode 45: C++ in the Visual Effects Industry with Paul Miller
 
 * https://codereview.stackexchange.com/questions/87497/create-a-structure-to-store-data-about-a-movie
+
+
+* https://www.rebeltech.org/patch-library/patches/tags/Oscillator/
+
+## video ref
+
+https://www.youtube.com/playlist?list=PLLgJJsrdwhPxa6-02-CeHW8ocwSwl2jnu
+

@@ -18,13 +18,11 @@
 
 **Virtual instruments**: One can program digital instruments that mimic the sounds of real-world instruments such as pianos, guitars, drums, and brass instruments. These virtual instruments can be played using a MIDI controller or programmed into a sequencer.
 
-**Synthesizers**: Synthesizers allow one to create new sounds by manipulating oscillators, filters, and envelopes. There are many types of synthesizers, such as subtractive, additive, FM, and granular synthesizers, each with their unique sound.
+**Synthesizers**: Synthesizers allow you to create new sounds by manipulating oscillators, filters, and envelopes. There are many types of synthesizers, such as subtractive, additive, FM, and granular synthesizers, each with their unique sound.
 
 **Effects**: Audio effects can be used to modify the sound of a track or an instrument. Some common effects include reverb, delay, chorus, and distortion. One can program custom effects or use pre-existing ones.
 
 **Sample libraries**: Sample libraries contain recordings of real-world instruments or sounds. One can program instruments using these samples, allowing them to create realistic sounding instruments.
-
-For those wish to specialize as DJ?
 
 The concept of loops is an important part of audio programming, especially in electronic music production. A loop is a short section of audio that can be repeated continuously, creating a rhythmic pattern. Loops can be created using digital audio workstations (DAWs) or using specialized software like Ableton Live.
 
@@ -91,9 +89,6 @@ Whichever language you work primarily with, keep in mind, knowledge of digital s
 
 ## Audio API, Interfaces
 
-only for linux people
-...
-
 Standard stuff: 
 
 - CLI, File system, 
@@ -108,5 +103,41 @@ a good understanding of how processes and services work in Linux, including how 
 - Network configuration: know how to configure network settings on Linux, including setting up network interfaces, configuring IP addresses, and setting up firewall rules.
 
 - Audio subsystems: Linux has several audio subsystems, such as ALSA and JACK, that are used for audio input/output and processing.
+
+
+## Starter projects
+
+* Basic Polyphonic synthesizer with presets, save/load, filters, oscillators, mixers and envelopes
+
+* A basic EQ plugin with by-passable filters and EQ curve visualization.
+
+* Plugins: VST, VST3, AU, AXX, Effects.
+
+Personally, I worked with Scaler 2, which is available as a plugin in several different formats, including VST, AU, and AAX. This means that it can be used in a variety of different DAWs, including Logic Pro, Ableton Live, Pro Tools, and others, depending on the specific format that is installed.
+
+When Scaler 2 is installed, it should automatically detect the plugin formats that are available on the system and install the appropriate versions of the plugin. This allows Scaler 2 to be used in different DAWs and on different operating systems, making it a versatile tool for music composition and production.
+
+## Knowledge
+
+* Concurrence and thread safety
+
+* UI, UX and GUI development
+
+* Optimizations including SIMD
+Design patterns
+
+* Lock-free data structures vs not lock-free data structures
+Algorithm development and memory management
+
+* Digital Signal Processing (DSP).
+
+
+## Reference
+
+* The audioprogramming youtube
+
+* [JUCE](https://docs.juce.com/develop/index.html)
+
+
 
 
